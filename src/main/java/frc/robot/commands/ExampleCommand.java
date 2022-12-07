@@ -11,7 +11,7 @@ import edu.wpi.first.wpilibj2.command.CommandBase;
 public class ExampleCommand extends CommandBase {
   @SuppressWarnings({"PMD.UnusedPrivateField", "PMD.SingularField"})
   private final ExampleSubsystem m_subsystem;
-
+  //selamun aleyküm
   /**
    * Creates a new ExampleCommand.
    *
@@ -21,6 +21,7 @@ public class ExampleCommand extends CommandBase {
     m_subsystem = subsystem;
     // Use addRequirements() here to declare subsystem dependencies.
     addRequirements(subsystem);
+  
   }
 
   // Called when the command is initially scheduled.
